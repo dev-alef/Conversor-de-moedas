@@ -1,7 +1,5 @@
 💱 Conversor de Moedas
-HTML
-CSS
-JavaScript
+
 status: concluído
 
 Aplicação web simples que converte valores entre Real (BRL) e as principais moedas do mundo, incluindo Bitcoin. Desenvolvido com HTML, CSS e JavaScript puro — sem frameworks, sem bibliotecas externas.
@@ -29,6 +27,8 @@ Aplicação web simples que converte valores entre Real (BRL) e as principais mo
 - JavaScript
 
 ## como usar
+
+# link para o github pages: https://dev-alef.github.io/Conversor-de-moedas/
 
 # clone o repositório
 
