@@ -48,6 +48,7 @@ main {
   background: #050a0e;
   border-radius: 8px;
   padding: 20px;
+  margin: 0px 283px 0px 0px;
 }
 
 label {
@@ -127,6 +128,17 @@ section {
 .currency {
   color: #f9f9f98f;
   font-size: 14px;
+}
+.currency-from-name {
+  color: #f9f9f98f;
+  font-size: 14px;
+}
+
+.cotação {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 17px;
+  margin: 10px 0px 567px 0px;
 }
 
 .currency-value, .currency-value-to-convert {
