@@ -114,7 +114,7 @@ section {
 }
 
 .arrow-img {
-  margin: 15px;
+  margin: -9px;
   width: 90px;
 }
 
@@ -138,7 +138,7 @@ section {
   color: #ffffff;
   font-weight: 700;
   font-size: 17px;
-  margin: 10px 0px 567px 0px;
+  margin: 10px 0px 515px 0px;
 }
 
 .currency-value, .currency-value-to-convert {
