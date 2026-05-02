@@ -26,13 +26,13 @@ Aplicação web simples que converte valores entre Real (BRL) e as principais mo
 
 - CSS3
 
-- JavaScript (Vanilla JS)
+- JavaScript
 
 ## como usar
 
 # clone o repositório
 
-git clone https://github.com/seuusuario/conversor-de-moedas.git
+git clone https://github.com/dev-alef/conversor-de-moedas.git
 
 # abra o arquivo no navegador
 
@@ -42,8 +42,8 @@ Abra o arquivo index.html diretamente no seu navegador
 
 conversor-de-moedas/
 ├── index.html
-├── style.css
-└── script.js
+├── javascript.js
+└── style.css
 
 ## aprendizados
 
@@ -53,4 +53,4 @@ Este foi meu primeiro projeto frontend. Aprendi a manipular o DOM com JavaScript
 
 Feito com dedicação por Alerson dos Santos Ferreira
 
-LinkedIn: linkedin.com/in/alerson-ferreira • GitHub: github.com/seuusuario
+LinkedIn: https://www.linkedin.com/in/alerson-ferreira-2367233b8/ • GitHub: github.com/dev-alef
