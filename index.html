@@ -19,19 +19,22 @@
       <label>
         Converter <b>de:</b>
         <select class="select">
-          <option>R$ Real Brasileiro</option>
-          
+          <option value="brl">R$ Real Brasileiro</option>
+          <option value="dolar">US$ Dólar Americano</option>
+          <option value="euro">€ Euro</option>
+          <option value="libra">£ Libra</option>
+          <option value="bitcoin">₿ Bitcoin</option>
         </select>
       </label>
 
       <label>
         <b>Para:</b>
         <select class="currency-select">
-          
           <option value="dolar">US$ Dólar Americano</option>
-          
+          <option value="brl">R$ Real Brasileiro</option>
           <option value="euro">€ Euro</option>
-          
+          <option value="libra">£ Libra</option>
+          <option value="bitcoin">₿ Bitcoin</option>
         </select>
       </label>
       <label>
@@ -40,18 +43,22 @@
       </label>
 
       <button class="convert-button">Converter</button>
-      
+
       <section>
-        <div class="currency-box">
-          <img src="./assets/real.png" alt="logo-real" />
-          <p class="currency">Real</p>
+        <div class="currency-box from-currency-box">
+          <img class="currency-img-from" src="./assets/real.png" alt="logo-real" />
+          <p class="currency-from-name">Real</p>
           <p class="currency-value-to-convert">R$ 0,00</p>
         </div>
 
         <img class="arrow-img" src="./assets/arrow3.png" alt="seta" />
 
         <div class="currency-box">
-          <img class="currency-img" src="./assets/dolar.png" alt="logo-dollar" />
+          <img
+            class="currency-img"
+            src="./assets/dolar.png"
+            alt="logo-dollar"
+          />
           <p class="currency" id="currency-name">Dólar americano</p>
           <p class="currency-value">U$ 0,00</p>
         </div>
@@ -62,15 +69,9 @@
   <script src="./javascript.js"></script>
 </html>
 
-
 <!--
-          <option value="dolar">US$ Dólar Americano</option>
-          <option value="euro">€ Euro</option>
-          <option>£ Libra</option>
-          <option>Bitcoin</option>
+          
 
 
-          <option>R$ Real Brasileiro</option>
-          <option>£ Libra</option>
-          <option>Bitcoin</option>
+          
           -->
