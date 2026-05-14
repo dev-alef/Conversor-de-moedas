@@ -146,3 +146,69 @@ section {
   font-weight: 700;
   font-size: 20px;
 }
+
+
+
+@media screen and (max-width: 600px) {
+
+  body {
+  height: 100%; /* altura total da tela */
+  margin: -200px 0px 0px 0px;
+  background-image: url("./assets/background.png");
+  background-image: 100%;
+  background-size: cover; /* cobre todo o corpo */
+  background-position: center;
+
+  /* Flexbox para centralizar */
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */
+}
+
+  button {
+  width: 232%;
+  height: 48px;
+  border: none;
+  background: #0d67a1 ;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #000000 0%, #00f2fe 100%);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  transition: transform 0.2s;
+}
+
+  section {
+  border: 1px solid #0d67a1;
+  border-radius: 20px;
+  margin-top: 36px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 11px -180px -200px 0px;
+}
+
+  select,
+input {
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 48px;
+  width: 233%;
+  margin-bottom: 13px;
+  appearance: none;
+  padding-left: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #555555;
+  cursor: pointer;
+  align-items: center;
+  
+}
+
+
+}
