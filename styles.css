@@ -151,6 +151,10 @@ section {
 
 @media screen and (max-width: 600px) {
 
+  .cotação {
+    display: hidden;
+  }
+
   body {
   height: 100%; /* altura total da tela */
   margin: -200px 0px 0px 0px;
